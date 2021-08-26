@@ -14,6 +14,8 @@ public class CFGUpdater : Plugin
 		JSScript matrix_hitlogs = new JSScript("Matrix HitLogs", "Klient", "4F7D3CB9C9630629E4EE0C556B723756", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/Matrix%20Hitlogs.js");
 		JSScript evolve_chams = new JSScript("Evolve Chams", "Klient", "8AB75527AB6C394BDC5C45C822DC7B01", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/Evolve%20Chams.js");
 		
+		JSScript jump_scout = new JSScript("Jump Scout", "iDesync", "AC022DD65E381C3DD66B61B325B2BE52", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/Jump%20Scout.js");
+		
 		JSScript matchmaking_fakeduck = new JSScript("Matchmaking FakeDuck", "swayzov", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/Matchmaking%20FakeDuck.js");
 		
 		/* Конфиги */
