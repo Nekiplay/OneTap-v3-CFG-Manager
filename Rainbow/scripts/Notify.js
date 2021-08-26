@@ -15,7 +15,7 @@ UI.AddColorPicker("[N] Global color")
 var notify = {
 	nlogs: new Array,
 	speed: 0,
-	name: "Raimbow CFG",
+	name: "Rainbow CFG",
 
 	add_notify: function(text, index, alpha) {
 		var font = fonts().verdana
