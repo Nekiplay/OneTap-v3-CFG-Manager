@@ -15,6 +15,7 @@ public class CFGUpdater : Plugin
 		JSScript evolve_chams = new JSScript("Evolve Chams", "Klient", "8AB75527AB6C394BDC5C45C822DC7B01", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/Evolve%20Chams.js", ".js");
 		JSScript molotov_radius = new JSScript("Molotov Radius", "Unknow", "F429DD85000226ED5A7F4C6E1E255179", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/Molotov%20Radius.js", ".js");
 		JSScript jump_scout = new JSScript("Jump Scout", "iDesync", "AC022DD65E381C3DD66B61B325B2BE52", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/Jump%20Scout.js", ".js");
+		JSScript safety_after_x_miss = new JSScript("Safety after x miss", "Neki_play", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/Safety%20after%20x%20miss.js", ".js");
 		JSScript matchmaking_fakeduck = new JSScript("Matchmaking FakeDuck", "swayzov", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/Matchmaking%20FakeDuck.js", ".js");
 		
 		JSScript neverlose_watermark = new JSScript("NeverLose Watermark", "Asker", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Neverlose%20v2/scripts/NeverLose%20Watermark.js", ".js");
@@ -26,8 +27,9 @@ public class CFGUpdater : Plugin
 		
 		PluginPostObject(new List<JSScript>() { override_damage, china_hat, matrix_hitlogs, 
 		evolve_chams, molotov_radius, jump_scout, 
-		matchmaking_fakeduck, grenade_helper, grenade_helper_locations, 
-		neverlose_watermark, neverlose_spectator, neverlose_binds
+		safety_after_x_miss, matchmaking_fakeduck, grenade_helper, 
+		grenade_helper_locations, neverlose_watermark, neverlose_spectator, 
+		neverlose_binds
 		});
 		
 		/* Конфиги */
