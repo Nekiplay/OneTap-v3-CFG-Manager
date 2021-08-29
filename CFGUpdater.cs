@@ -35,7 +35,7 @@ public class CFGUpdater : Plugin
 		});
 		
 		/* Конфиги */
-		CFG cfg_rainbow = new CFG("Rainbow", "Asker", "337EEDE59EB91FC04C2396FFE1B723B4", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/Rainbow.cfg", new List<JSScript>() { grenade_helper, grenade_helper_locations, override_damage, china_hat, matrix_hitlogs, evolve_chams, molotov_radius, new JSScript("Notify", "Asker", "38C3184E426778175E56F1F9747171D4", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/Notify.js", ".js") });
+		CFG cfg_rainbow = new CFG("Rainbow", "Asker", "337EEDE59EB91FC04C2396FFE1B723B4", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/Rainbow.cfg", new List<JSScript>() { grenade_helper, override_damage, china_hat, matrix_hitlogs, evolve_chams, molotov_radius, new JSScript("Notify", "Asker", "38C3184E426778175E56F1F9747171D4", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/Notify.js", ".js") });
 		CFG cfg_neverlose_v2 = new CFG("Neverlose v2", "Asker", "337EEDE59EB91FC04C2396FFE1B723B4", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Neverlose%20v2/Neverlose.cfg", new List<JSScript>() { override_damage, china_hat, matrix_hitlogs, neverlose_watermark, neverlose_spectator, neverlose_binds, molotov_radius, new JSScript("Notify", "Asker", "38C3184E426778175E56F1F9747171D4", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Neverlose%20v2/scripts/Notify.js", ".js") });
 		PluginPostObject(cfg_rainbow);
 		PluginPostObject(cfg_neverlose_v2);
