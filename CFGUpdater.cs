@@ -11,6 +11,7 @@ public class CFGUpdater : Plugin
 		/* Скрипты */
 		JSScript autopeek_glow = new JSScript("Glow Auto Peek", "oXEKo", "54B90C5DF3147E69856D7C56E05C3A0C", "https://github.com/Nekiplay/OneTap-v3-CFG-Manager/raw/main/Rainbow/scripts/Glow%20AutoPeek.js", ".js");
 		
+		JSScript console_filter = new JSScript("Console Filter", "magister", "54B90C5DF3147E69856D7C56E05C3A0C", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/Console%20Filter.js", ".js");
 		JSScript override_damage = new JSScript("Override Damage", "Neki_play", "54B90C5DF3147E69856D7C56E05C3A0C", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/Overide%20Damage.js", ".js");
 		JSScript china_hat = new JSScript("China Hat", "Klient", "F665737D7C218DDA9B13B4DB4BB785F7", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/China%20Hat.js", ".js");
 		JSScript matrix_hitlogs = new JSScript("Matrix HitLogs", "Klient", "4F7D3CB9C9630629E4EE0C556B723756", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/Matrix%20Hitlogs.js", ".js");
@@ -34,7 +35,7 @@ public class CFGUpdater : Plugin
 		JSScript infernal_tech_v2_1 = new JSScript("Infernal Tech v2.1", "ANARXIST_", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/Infernal%20tech%202.1.js", ".js");
 		
 		PluginPostObject(new List<JSScript>() { override_damage, china_hat, matrix_hitlogs, 
-		evolve_chams, molotov_radius, jump_scout, 
+		evolve_chams, molotov_radius, console_filter, jump_scout, 
 		safety_after_x_miss, matchmaking_fakeduck, grenade_helper, 
 		neverlose_watermark, neverlose_spectator, neverlose_binds, 
 		neverlose_bomb_timer, grenade_warning, grenade_predict,
