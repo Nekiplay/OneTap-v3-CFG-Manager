@@ -18,9 +18,10 @@ public class CFGUpdater : Plugin
 		JSScript safety_after_x_miss = new JSScript("Safety after x miss", "Neki_play", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/Safety%20after%20x%20miss.js", ".js");
 		JSScript matchmaking_fakeduck = new JSScript("Matchmaking FakeDuck", "swayzov", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/Matchmaking%20FakeDuck.js", ".js");
 		
-		JSScript neverlose_watermark = new JSScript("NeverLose Watermark", "Asker", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Neverlose%20v2/scripts/NeverLose%20Watermark.js", ".js");
-		JSScript neverlose_spectator = new JSScript("NeverLose Spectator", "Asker", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Neverlose%20v2/scripts/NeverLose%20Spectator.js", ".js", new Font("v4 icons.ttf", "", "https://github.com/Nekiplay/OneTap-v3-CFG-Manager/raw/main/Neverlose%20v2/fonts/v4%20icons.ttf"));
-		JSScript neverlose_binds = new JSScript("NeverLose Binds", "Asker", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Neverlose%20v2/scripts/Neverlose%20Binds.js", ".js", new Font("v4 icons.ttf", "", "https://github.com/Nekiplay/OneTap-v3-CFG-Manager/raw/main/Neverlose%20v2/fonts/v4%20icons.ttf"));
+		JSScript neverlose_watermark = new JSScript("NeverLose Watermark", "Desiltion", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Neverlose%20v2/scripts/NeverLose%20Watermark.js", ".js");
+		JSScript neverlose_spectator = new JSScript("NeverLose Spectator", "prince1337", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Neverlose%20v2/scripts/NeverLose%20Spectator.js", ".js", new Font("v4 icons.ttf", "", "https://github.com/Nekiplay/OneTap-v3-CFG-Manager/raw/main/Neverlose%20v2/fonts/v4%20icons.ttf"));
+		JSScript neverlose_binds = new JSScript("NeverLose Binds", "prince1337", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Neverlose%20v2/scripts/Neverlose%20Binds.js", ".js", new Font("v4 icons.ttf", "", "https://github.com/Nekiplay/OneTap-v3-CFG-Manager/raw/main/Neverlose%20v2/fonts/v4%20icons.ttf"));
+		JSScript neverlose_bomb_timer = new JSScript("NeverLose Bomb Timer", "magister", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Neverlose%20v2/scripts/NeverLose%20Bomb%20Timer.js", ".js", new List<Font>() { new Font("bomb.ttf", "", "https://github.com/Nekiplay/OneTap-v3-CFG-Manager/raw/main/Neverlose%20v2/fonts/bombtimer.ttf"),  new Font("Museo Sans Cyrl 700.ttf", "", "https://github.com/Nekiplay/OneTap-v3-CFG-Manager/raw/main/Neverlose%20v2/fonts/v4%20icons.ttf") } );
 		
 		JSScript grenade_warning = new JSScript("Grenade Warning", "Neki_play", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/Grenade%20Warning.js", ".js");
 		JSScript grenade_predict = new JSScript("Grenade Predict", "Neki_play", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/Grenade%20Predict.js", ".js");
@@ -31,7 +32,7 @@ public class CFGUpdater : Plugin
 		evolve_chams, molotov_radius, jump_scout, 
 		safety_after_x_miss, matchmaking_fakeduck, grenade_helper, 
 		neverlose_watermark, neverlose_spectator, neverlose_binds, 
-		grenade_warning, grenade_predict
+		neverlose_bomb_timer, grenade_warning, grenade_predict
 		});
 		
 		/* Конфиги */
