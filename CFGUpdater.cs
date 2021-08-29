@@ -11,7 +11,7 @@ public class CFGUpdater : Plugin
 		/* Скрипты */
 		JSScript autopeek_glow = new JSScript("Glow Auto Peek", "oXEKo", "54B90C5DF3147E69856D7C56E05C3A0C", "https://github.com/Nekiplay/OneTap-v3-CFG-Manager/raw/main/Rainbow/scripts/Glow%20AutoPeek.js", ".js");
 		
-		JSScript custom_hitmarker = new JSScript("Custom Hitmarker", "Unknown", "54B90C5DF3147E69856D7C56E05C3A0C", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/Custom%20Hitmarker.js", ".js");
+		JSScript custom_hitmarker = new JSScript("Custom Hitmarker", "tkacalex", "54B90C5DF3147E69856D7C56E05C3A0C", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/Custom%20Hitmarker.js", ".js");
 		JSScript console_filter = new JSScript("Console Filter", "magister", "54B90C5DF3147E69856D7C56E05C3A0C", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/Console%20Filter.js", ".js");
 		JSScript override_damage = new JSScript("Override Damage", "Neki_play", "54B90C5DF3147E69856D7C56E05C3A0C", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/Overide%20Damage.js", ".js");
 		JSScript china_hat = new JSScript("China Hat", "Klient", "F665737D7C218DDA9B13B4DB4BB785F7", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/China%20Hat.js", ".js");
