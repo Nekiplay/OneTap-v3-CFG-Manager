@@ -33,13 +33,14 @@ public class CFGUpdater : Plugin
 		
 		/* Корды */
 		JSScript infernal_tech_v2_1 = new JSScript("Infernal Tech v2.1", "ANARXIST_", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/Infernal%20tech%202.1.js", ".js");
+		JSScript dive_yaw_v3_0 = new JSScript("Dive Yaw v3.0", "Centrial", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/DiveYaw%203.0.js", ".js");
 		
 		PluginPostObject(new List<JSScript>() { override_damage, china_hat, matrix_hitlogs, 
 		evolve_chams, molotov_radius, console_filter, jump_scout, 
 		safety_after_x_miss, matchmaking_fakeduck, grenade_helper, 
 		neverlose_watermark, neverlose_spectator, neverlose_binds, 
 		neverlose_bomb_timer, grenade_warning, grenade_predict,
-		autopeek_glow, infernal_tech_v2_1
+		autopeek_glow, infernal_tech_v2_1, dive_yaw_v3_0
 		});
 		
 		/* Конфиги */
