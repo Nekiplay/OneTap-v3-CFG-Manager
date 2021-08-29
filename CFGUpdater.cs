@@ -30,12 +30,15 @@ public class CFGUpdater : Plugin
 		JSScript grenade_helper_locations = new JSScript("v3_helper", "Neki_play", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OTC-v3-GrenadeHelper/main/v3_helper.data", ".data");
 		JSScript grenade_helper = new JSScript("Grenade Helper", "Neki_play", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OTC-v3-GrenadeHelper/main/v3_helper_v2.js", ".js", new List<JSScript>() { grenade_helper_locations });
 		
+		/* Корды */
+		JSScript infernal_tech_v2_1 = new JSScript("Infernal Tech v2.1", "ANARXIST_", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/Infernal%20tech%202.1.js", ".js");
+		
 		PluginPostObject(new List<JSScript>() { override_damage, china_hat, matrix_hitlogs, 
 		evolve_chams, molotov_radius, jump_scout, 
 		safety_after_x_miss, matchmaking_fakeduck, grenade_helper, 
 		neverlose_watermark, neverlose_spectator, neverlose_binds, 
 		neverlose_bomb_timer, grenade_warning, grenade_predict,
-		autopeek_glow
+		autopeek_glow, infernal_tech_v2_1
 		});
 		
 		/* Конфиги */
