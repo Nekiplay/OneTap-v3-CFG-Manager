@@ -24,14 +24,14 @@ public class CFGUpdater : Plugin
 		
 		JSScript grenade_warning = new JSScript("Grenade Warning", "Neki_play", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/Grenade%20Warning.js", ".js");
 		JSScript grenade_predict = new JSScript("Grenade Predict", "Neki_play", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/Grenade%20Predict.js", ".js");
-		JSScript grenade_helper = new JSScript("Grenade Helper", "Neki_play", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OTC-v3-GrenadeHelper/main/v3_helper_v2.js", ".js");
 		JSScript grenade_helper_locations = new JSScript("v3_helper", "Neki_play", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OTC-v3-GrenadeHelper/main/v3_helper.data", ".data");
+		JSScript grenade_helper = new JSScript("Grenade Helper", "Neki_play", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OTC-v3-GrenadeHelper/main/v3_helper_v2.js", ".js", new List<JSScript>() { grenade_helper_locations });
 		
 		PluginPostObject(new List<JSScript>() { override_damage, china_hat, matrix_hitlogs, 
 		evolve_chams, molotov_radius, jump_scout, 
 		safety_after_x_miss, matchmaking_fakeduck, grenade_helper, 
-		grenade_helper_locations, neverlose_watermark, neverlose_spectator, 
-		neverlose_binds, grenade_warning, grenade_predict
+		neverlose_watermark, neverlose_spectator, neverlose_binds, 
+		grenade_warning, grenade_predict
 		});
 		
 		/* Конфиги */
