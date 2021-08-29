@@ -31,6 +31,8 @@ public class CFGUpdater : Plugin
 		JSScript grenade_helper_locations = new JSScript("v3_helper", "Neki_play", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OTC-v3-GrenadeHelper/main/v3_helper.data", ".data");
 		JSScript grenade_helper = new JSScript("Grenade Helper", "Neki_play", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OTC-v3-GrenadeHelper/main/v3_helper_v2.js", ".js", new List<JSScript>() { grenade_helper_locations });
 		
+		JSScript factor_aa = new JSScript("FactorAA", "Aomori", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/FactorAA.js", ".js");
+		
 		/* Корды */
 		JSScript infernal_tech_v2_1 = new JSScript("Infernal Tech v2.1", "ANARXIST_", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/Infernal%20tech%202.1.js", ".js");
 		JSScript dive_yaw_v3_0 = new JSScript("Dive Yaw v3.0", "Centrial", "8989D1BDCFB9D7841C8309A31B390531", "https://raw.githubusercontent.com/Nekiplay/OneTap-v3-CFG-Manager/main/Rainbow/scripts/DiveYaw%203.0.js", ".js");
@@ -40,7 +42,8 @@ public class CFGUpdater : Plugin
 		safety_after_x_miss, matchmaking_fakeduck, grenade_helper, 
 		neverlose_watermark, neverlose_spectator, neverlose_binds, 
 		neverlose_bomb_timer, grenade_warning, grenade_predict,
-		autopeek_glow, infernal_tech_v2_1, dive_yaw_v3_0
+		autopeek_glow, factor_aa, infernal_tech_v2_1, 
+		dive_yaw_v3_0
 		});
 		
 		/* Конфиги */
