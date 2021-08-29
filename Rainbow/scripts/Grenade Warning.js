@@ -22,7 +22,7 @@ function Clamp(v, min, max)
 
 function ImportGrenades()
 {
-    var grenades = Entity.GetEntitiesByClassID(9).concat(Entity.GetEntitiesByClassID(113).concat(Entity.GetEntitiesByClassID(100)));
+    var grenades = Entity.GetEntitiesByClassID(9).concat(Entity.GetEntitiesByClassID(114).concat(Entity.GetEntitiesByClassID(100)));
     for (e in grenades)
     {
         pass = false;
@@ -48,10 +48,10 @@ function GrenadeWarning()
     var grenades = Entity.GetEntitiesByClassID(9).concat(Entity.GetEntitiesByClassID(114).concat(Entity.GetEntitiesByClassID(100)));
 
     if (!Entity.IsAlive(local)) { return; }
-    
+   
     for (g in grenades) {
         for (var i = 0; i < grenades.length; i++) {
-            
+           
             var g = grenades[i];
             var isInferno = Entity.GetClassID(g) === 100;
             var isHeGrenade = Entity.GetClassID(g) === 9;
@@ -100,14 +100,14 @@ function GrenadeWarning()
             Render.Line ( screen[0] + 16, screen[1] - 12, screen[0] + 64, screen[1] - 12, !isSafe && warning_stroke ? clr[4] : clr[3])
             Render.Line ( screen[0] + 16, screen[1] + 12, screen[0] + 64, screen[1] + 12, !isSafe && warning_stroke ? clr[4] : clr[3])
             Render.Line ( screen[0] + 64, screen[1] + 12, screen[0] + 64, screen[1] - 12, !isSafe && warning_stroke ? clr[4] : clr[3])
-            
+           
             /* --------------- */
 
             if (isInferno)
             {
                 var time = Entity.GetProp(g, "CInferno", "m_nFireEffectTickBegin") * Globals.TickInterval();
                 var factor = Clamp(((time + 7) - Globals.Curtime()) / 7, 0, 7);
-    
+   
                 Render.FilledRect(screen[0] + 16, screen[1] + 10, 48, 2, clr[2]);
                 Render.FilledRect(screen[0] + 16, screen[1] + 10, Math.trunc(factor * 48), 2, clr[4]);
             }
